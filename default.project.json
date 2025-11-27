@@ -1,0 +1,24 @@
+{
+  "name": "FillBarEm",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "FillBarEm_Shared": {
+        "$path": "src/sharedData"
+      }
+    },
+
+    "ServerScriptService": {
+      "FillBarEm_Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    }
+  }
+}
