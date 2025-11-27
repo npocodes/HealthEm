@@ -13,8 +13,7 @@ local RepStor = game:GetService("ReplicatedStorage")
 --{ REQUIRED }--
 
 local FillBar = require(script.Parent.FillBar)
-local ClientBarScript = RepStor.FillBarEm_Shared.BarScript:Clone()
-ClientBarScript.Enabled = false
+
 
 --( Module )--
 
@@ -64,11 +63,6 @@ hpBar.AnchorPoint = Vector2.zero
 hpBar.SizeConstraint = Enum.SizeConstraint.RelativeXY
 hpBar.LayoutOrder = 100 --Bottom of the stack
 hpBar.Parent = infoFrame
-
---Give the HPbar a client bar script
---local newBarScript = ClientBarScript:Clone()
---newBarScript.Parent = hpBar
---newBarScript.Enabled = true
 
 
 --{ PUBLIC FUNCTIONS }--

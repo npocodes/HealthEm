@@ -16,7 +16,8 @@ local TagServ = game:GetService("CollectionService")
 local TweenServ = game:GetService("TweenService")
 local DebrisServ = game:GetService("Debris")
 
---{ REQUIREMENT }--
+
+--{ REQUIRED }--
 
 local FillBar = require(script.FillBar)
 local HotBarGui = require(script.HotBar)
@@ -163,7 +164,6 @@ end
 
 --Set the fill amount for the specified targets healthbar
 --damage can be +/-. Where + would indicate a heal.
---NEED TO MAKE SURE THIS ALSO UPDATES FOR PLAYER HOTBAR HP
 function Health.AddDamage(target, damage: number)
 	--print(target.Name, "has taken damage:", damage)
 
